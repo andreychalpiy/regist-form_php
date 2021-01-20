@@ -1,5 +1,5 @@
 <?php
-include("index.php");
+include("index.html");
 ?>
 
 <div class="row registration " id="registBlock">
@@ -14,50 +14,50 @@ include("index.php");
                 <h3>Registration </h3>
                 <div type="button" class="btn-close"></div>
             </div>
-            <div class="col-md-6">
+            <div class=" col-md-12 col-lg-6">
                 <label for="user" class="form-label">
                     User Name
                     <span class="form-required">*</span>
                 </label>
                 <input type="text" class="form-control" name="userName" placeholder="User Name">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <label for="inputEmail4" class="form-label">
                     E-mail
                     <span class="form-required">*</span>
                 </label>
                 <input type="email" class="form-control" name="email" id="inputEmai" placeholder="E-mail">
             </div>
-            <div class="col-md-6 ">
+            <div class="col-md-12 col-lg-6 ">
                 <label for="inputPassword4" class="form-label">
                     Password
                     <span class="form-required">*</span>
                 </label>
                 <input type="password" class="form-control" name="password" id="password" placeholder="Password">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <label for="confirmPassword" class="form-label">
                     Confirm Password
                     <span class="form-required">*</span>
                 </label>
                 <input type="password" class="form-control" name="confirmPassword" id="confirmPass" placeholder="Confirm Password">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <label for="firstName" class="form-label">
                     First Name
                     <span class="form-required">*</span>
                 </label>
                 <input type="text" class="form-control" name="firstName" placeholder="First Name">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <label for="lastName" class="form-label">Last Name</label>
                 <input type="text" class="form-control" placeholder="Last Name" name="lastName">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <label for="date" class="form-label">Birth Date</label>
                 <input class="form-control" data-mask="00/00/0000" placeholder="Birth Date" name="date" id="birthDate" type="text" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
                 <label for="interest" class="form-label">Interest</label>
                 <select id="multi" multiple="multiple">
                     <option value="Animals">Animals</option>
@@ -68,7 +68,7 @@ include("index.php");
             </div>
             <div class="col-md-12 col-lg-6 d-flex" style="
                     padding-right: 20px;" name="gender">
-                <label for="Sex" class="form-label">
+                <label for="Sex" class="form-label" style="margin-top: 0">
                     Sex
                     <span class="form-required">*</span>
                 </label>

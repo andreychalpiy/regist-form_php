@@ -1,5 +1,5 @@
 <?php
-include("index.php");
+include("index.html");
 ?>
 <div class="main-content">
     <div class="main-content_img">

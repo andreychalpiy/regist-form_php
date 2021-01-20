@@ -1,5 +1,5 @@
 <?php
-include("index.php");
+include("index.html");
 ?>
 
 
@@ -32,13 +32,13 @@ include("index.php");
             </div>
         </div>
         <div class="col-md-12 login-social">
-            <a href="#" class="login-social_icon">
+            <a href="https://twitter.com/" target="_dlank" class="login-social_icon">
                 <i class="fab fa-twitter-square"></i>
             </a>
-            <a href="#" class="login-social_icon">
+            <a href="https://www.facebook.com/" target="_dlank" class="login-social_icon">
                 <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="#" class="login-social_icon">
+            <a href="http://google.com/" target="_dlank" class="login-social_icon">
                 <i class="fab fa-google-plus-square"></i>
             </a>
         </div>
